@@ -322,7 +322,7 @@ inputData := make(map[string][]string)
 
 注释掉所显示的一行即可
 
-![1598761835758](C:\Users\15236\AppData\Roaming\Typora\typora-user-images\1598761835758.png)
+[![dzRLyq.png](https://s1.ax1x.com/2020/09/02/dzRLyq.png)](https://imgchr.com/i/dzRLyq)
 
  append的用法有两种：
 
@@ -452,7 +452,7 @@ func FieldsFunc(s string, f func(rune) bool) []string
 3. 给一个worker节点分配任务后，将该节点的RPC地址放入工作队列
 4. 在一个worker完成后，将该worker节点放回活动队列
 
-![Untitled Diagram (4)](C:\Users\15236\Downloads\Untitled Diagram (4).png)
+[![dzROO0.png](https://s1.ax1x.com/2020/09/02/dzROO0.png)](https://imgchr.com/i/dzROO0)
 
 但在实际编写时发现worker节点结束任务时并没有与master节点进行通信，故不知道如何执行第四步（实际上可以通过call的返回值判断，RPC采用==同步调用==方式）
 
@@ -590,7 +590,7 @@ func reduceF(key string, values []string) string {
 
 ###### 整体测试截图
 
-![1598965175353](C:\Users\15236\AppData\Roaming\Typora\typora-user-images\1598965175353.png)
+[![dzRjmV.png](https://s1.ax1x.com/2020/09/02/dzRjmV.png)](https://imgchr.com/i/dzRjmV)
 
 
 
